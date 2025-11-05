@@ -1,0 +1,295 @@
+/* ====================== KHUNG CHUNG ====================== */
+.products-table {
+  position: relative;
+  margin-top: 30px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #e0e0e0;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  border-bottom: 2px solid #e0e0e0;
+}
+
+/* ====================== BẢNG SẢN PHẨM ====================== */
+#products table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 15px;
+}
+
+#products th,
+#products td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+#products th {
+  background-color: #256f45;
+  font-weight: bold;
+  color: #e0e0e0;
+}
+
+/* ẢNH SẢN PHẨM */
+#productsTable img,
+#salesTable img {
+  width: 120px !important;
+  height: 120px !important;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
+
+/* ====================== NÚT CHUNG ====================== */
+.btn-add-new,
+.add-btn {
+  padding: 10px 16px;
+  background-color: #2e8b57;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s;
+  position: absolute;
+}
+
+.btn-add-new:hover,
+.add-btn:hover {
+  background-color: #256f45;
+}
+
+.btn-edit,
+.btn-delete {
+  padding: 6px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.3s;
+  margin: 2px;
+}
+
+.btn-edit {
+  background-color: #ffc107;
+  color: #000;
+}
+
+.btn-edit:hover {
+  background-color: #e0ac08;
+}
+
+.btn-delete {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.btn-delete:hover {
+  background-color: #c0392b;
+}
+
+/* ====================== NÚT THÊM SẢN PHẨM ====================== */
+.add-btn {
+  position: absolute;
+  bottom: -45px;
+  right: 10px;
+  background-color: #027f4f;
+}
+
+.add-btn:hover {
+  background-color: #014d37;
+}
+
+/* ====================== FORM THÊM SẢN PHẨM ====================== */
+.add-product-form {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 8px;
+  width: 50%;
+}
+
+.add-product-form h4 {
+  margin-bottom: 10px;
+}
+
+.add-product-form input {
+  width: 100%;
+  padding: 8px;
+  margin: 6px 0 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-save,
+.btn-cancel {
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin: 2px;
+}
+
+.btn-save {
+  background-color: #28a745;
+}
+
+.btn-save:hover {
+  background-color: #027f4f;
+}
+
+.btn-cancel {
+  background-color: #dc3545;
+}
+
+.btn-cancel:hover {
+  background-color: #c0392b;
+}
+
+/* ====================== Ô CHỌN LOẠI SP ====================== */
+.product-type-select {
+  width: 100%;
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+/* ====================== HEADER & LỌC ====================== */
+.products-header {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px 15px;
+  margin-bottom: 15px;
+  background: #fff;
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.products-header label {
+  font-weight: 600;
+  color: #333;
+  font-size: 15px;
+}
+
+.products-header select {
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  font-size: 14px;
+  color: #333;
+  background-color: #fff;
+  transition: all 0.2s;
+}
+
+.products-header select:hover {
+  border-color: #2e8b57;
+}
+
+.products-header select:focus {
+  border-color: #2e8b57;
+  box-shadow: 0 0 4px rgba(46, 139, 87, 0.3);
+  outline: none;
+}
+
+/* Ô tìm kiếm trong thanh lọc */
+.products-header .search-box {
+  margin-left: auto;
+}
+
+.products-header .search-box input {
+  padding: 7px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 200px;
+  font-size: 14px;
+  transition: 0.2s;
+}
+
+.products-header .search-box input:focus {
+  border-color: #2e8b57;
+  box-shadow: 0 0 4px rgba(46, 139, 87, 0.4);
+  outline: none;
+}
+
+
+/* ====================== Ô TÌM KIẾM ====================== */
+.search-box {
+  margin-left: auto;
+}
+
+.search-box input {
+  padding: 7px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 200px;
+  font-size: 14px;
+  transition: 0.2s;
+}
+
+.search-box input:focus {
+  border-color: #2e8b57;
+  box-shadow: 0 0 4px rgba(46, 139, 87, 0.4);
+  outline: none;
+}
+
+/* ====================== NÚT LƯU & HỦY INLINE ====================== */
+.btn-save-inline,
+.btn-cancel-inline {
+  padding: 5px 10px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.btn-save-inline {
+  background-color: #28a745;
+}
+
+.btn-cancel-inline {
+  background-color: #dc3545;
+}
+
+/* ====================== HIỆU ỨNG SỬA ====================== */
+#productsTable tr.editing td {
+  background-color: #fffbe6;
+  transition: 0.2s;
+}
+
+#productsTable tr.editing td[contenteditable="true"]:focus {
+  background-color: #fff3b0;
+  outline: 2px solid #ffc107;
+}
+
+/* ====================== CỘT SIZE VÀ TỒN KHO ====================== */
+#productsTable th:nth-child(n+6),
+#productsTable td:nth-child(n+6) {
+  text-align: center;
+  width: 50px; /* mỗi size một cột nhỏ */
+}
+
+#productsTable td.total-stock {
+  font-weight: bold;
+  color: #2e8b57;
+}
+
+#productsTable td img {
+  width: 60px !important;
+  height: 60px !important;
+}
+
+
+
